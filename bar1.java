@@ -10,14 +10,15 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 
 public class bar1 {
+	//sdfasdfsadfsadfsadfsd
 	public static void main(String[] args) {
 		DefaultCategoryDataset dataset=new DefaultCategoryDataset();
-		dataset.addValue(100, "北京", "苹果");
-		dataset.addValue(150, "北京", "葡萄");
-		dataset.addValue(80, "北京", "香蕉");
-		dataset.addValue(120, "北京", "橘子");
+		dataset.addValue(100, "卤卤戮漏", "脝禄鹿没");
+		dataset.addValue(150, "卤卤戮漏", "脝脧脤脩");
+		dataset.addValue(80, "卤卤戮漏", "脧茫陆露");
+		dataset.addValue(120, "卤卤戮漏", "茅脵脳脫");
 		
-	JFreeChart chart = ChartFactory.createBarChart3D("水果销量图", "水果", "销量", dataset, PlotOrientation.VERTICAL, true, true, false);
+	JFreeChart chart = ChartFactory.createBarChart3D("脣庐鹿没脧煤脕驴脥录", "脣庐鹿没", "脧煤脕驴", dataset, PlotOrientation.VERTICAL, true, true, false);
 	
 	try {
 		ChartUtilities.saveChartAsJPEG(new File("d:\\aaaa\\bar1.jpeg"), chart, 700, 500);
