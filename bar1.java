@@ -1,4 +1,4 @@
-package com.offcn.bar;
+﻿package com.offcn.bar;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,6 +11,7 @@ import org.jfree.data.category.DefaultCategoryDataset;
 
 public class bar1 {
 	//sdfasdfsadfsadfsadfsd
+//sdfadfgadgg9999999999
 	public static void main(String[] args) {
 		DefaultCategoryDataset dataset=new DefaultCategoryDataset();
 		dataset.addValue(100, "±±¾©", "Æ»¹û");
